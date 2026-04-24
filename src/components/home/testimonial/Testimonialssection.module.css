@@ -7,6 +7,7 @@
   width: 100%;
   min-height: 100vh;
   background: linear-gradient(135deg, #c9a96e 0%, #8b6e47 40%, #6b5235 100%);
+  /* background: url('/testimonial_background.jpg'); */
   display: flex;
   flex-direction: column;
   align-items: center;

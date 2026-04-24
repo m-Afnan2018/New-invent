@@ -23,14 +23,15 @@
   font-weight: 700;
   color: #1a1a1a;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: capitalize;
   line-height: 1.15;
   margin: 0;
 }
 
 .headingGold {
-  color: #b5893a;
-  font-style: italic;
+  /* color: #BDA57F#b5893a; */
+  color: #BDA57F;
+  /* font-style: italic; */
 }
 
 /* ── 3-col grid ────────────────────────────── */
@@ -72,7 +73,7 @@
 .leftDesc {
   font-family: var(--font-gotham);
   font-size: 0.95rem;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 1.7;
   color: #888888;
   margin: 0;
@@ -86,7 +87,7 @@
 }
 
 .thumbLabel {
-  font-family: var(--font-verah);
+  font-family: var(--font-montserrat);
   font-size: 0.95rem;
   font-weight: 700;
   color: #1a1a1a;
@@ -136,7 +137,7 @@
   color: #ffffff;
   border: none;
   border-radius: 50px;
-  font-family: var(--font-verah);
+  font-family: var(--font-montserrat);
   font-size: 0.9rem;
   font-weight: 600;
   cursor: pointer;
@@ -216,7 +217,7 @@
 }
 
 .infoTitle {
-  font-family: var(--font-verah);
+  font-family: var(--font-montserrat);
   font-size: 1.25rem;
   font-weight: 700;
   color: #ffffff;
@@ -224,11 +225,12 @@
 }
 
 .infoDesc {
-  font-family: var(--font-verah);
-  font-size: 0.85rem;
-  line-height: 1.65;
-  color: #999999;
+  color: #9E9090;
   margin: 0;
+  font-size: 1rem;
+  line-height: 1.25;
+  font-family: var(--font-montserrat);
+  font-weight: 600;
 }
 
 .divider {
@@ -247,7 +249,7 @@
 }
 
 .reviewsLabel {
-  font-family: var(--font-verah);
+  font-family: var(--font-montserrat);
   font-size: 1.25rem;
   font-weight: 700;
   color: #ffffff;
@@ -277,7 +279,7 @@
 }
 
 .reviewScore {
-  font-family: var(--font-verah);
+  font-family: var(--font-montserrat);
   font-size: 1.1rem;
   font-weight: 700;
   color: #ffffff;

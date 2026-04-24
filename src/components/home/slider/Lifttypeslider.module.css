@@ -61,10 +61,11 @@
 
 /* ── Type label ────────────────────────────── */
 .typeLabel {
-  font-family: var(--font-verah);
+  font-family: var(--font-gotham);
   font-size: 0.75rem;
   font-weight: 700;
-  letter-spacing: 0.18em;
+  font-size: 1rem;
+  /* letter-spacing: 0.18em; */
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -79,7 +80,10 @@
 }
 
 .titleGold {
-  color: #b59a6a;
+  /* color: #b59a6a; */
+  color: #BDA57F;
+  font-family: var(--font-verah);
+  font-weight: 700;
   /* font-style: italic; */
 }
 
@@ -91,10 +95,11 @@
 
 /* ── Description ───────────────────────────── */
 .description {
-  font-family: var(--font-verah);
-  font-size: 0.92rem;
-  line-height: 1.7;
-  color: #a0a0a0;
+  font-family: var(--font-gotham);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #9E9090;
   max-width: 420px;
   margin: 0;
 }

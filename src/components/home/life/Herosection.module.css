@@ -42,7 +42,7 @@
 .headlineMuted {
   font-family: var(--font-verah);
   font-size: clamp(1.8rem, 2.6vw, 2.6rem);
-  font-weight: 400;
+  font-weight: 700;
   color: #a08080;
   /* dusty rose / muted */
   margin: 0;
@@ -50,10 +50,13 @@
 
 /* ── Center: tagline ───────────────────────── */
 .tagline {
-  font-family: var(--font-montserrat);
+  /* font-family: var(--font-montserrat); */
   font-size: clamp(0.82rem, 1vw, 0.95rem);
   line-height: 1.65;
-  color: #1a1a1a;
+  color: #312525;
+  font-family: var(--font-montserrat);
+  font-weight: 500;
+  /* font-size: 0.875rem; */
 }
 
 .tagline p {
@@ -62,11 +65,11 @@
 
 .tagline strong {
   font-weight: 700;
-  color: #1a1a1a;
+  color: #312525;
 }
 
 .taglineMuted {
-  color: #7a7a7a;
+  color: #9E9090;
 }
 
 /* ── Right: CTA ────────────────────────────── */
@@ -87,7 +90,7 @@
   border-radius: 50px;
   font-family: var(--font-montserrat);
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
   white-space: nowrap;
   transition: background 0.2s ease, transform 0.15s ease;
