@@ -45,7 +45,7 @@ export default function Footer() {
         <footer className={styles.footer}>
             <div className={styles.bgImage}>
                 <Image
-                    src="/images/footerbg.png"
+                    src="/images/logo.png"
                     alt="Footer background"
                     fill
                     style={{ objectFit: "cover", objectPosition: "center" }}
